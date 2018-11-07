@@ -8,9 +8,9 @@ import time
 import requests
 from lxml import etree
 
-from .fetch_proxy import fetch_proxy
+from amazon_crawler.Spider.utils.fetch_proxy import fetch_proxy
 # from .Spider.Downloader import download_get
-from ..Downloader import download_get
+from amazon_crawler.Spider.code.Downloader import download_get
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"}
 proxies = {

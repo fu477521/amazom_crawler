@@ -13,11 +13,11 @@ import requests
 from retrying import retry
 from fake_useragent import UserAgent
 
-from .utils.decorator import timer
-from .conf.setting import BASE_DIR
-from .conf.setting import PROXY_VERIFY
-from .conf.setting import PROXY_HTTP_GET, PROXY_HTTPS_GET
-from .conf.setting import PROXY_HTTP_POST, PROXY_HTTPS_POST
+from amazon_crawler.Spider.utils.decorator import timer
+from amazon_crawler.Spider.conf.setting import BASE_DIR
+from amazon_crawler.Spider.conf.setting import PROXY_VERIFY
+from amazon_crawler.Spider.conf.setting import PROXY_HTTP_GET, PROXY_HTTPS_GET
+from amazon_crawler.Spider.conf.setting import PROXY_HTTP_POST, PROXY_HTTPS_POST
 
 
 # user agent
